@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 
 namespace API.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : Controller
     {
@@ -46,6 +47,20 @@ namespace API.Controllers
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             return await _repo.GetProductByIdAsync(id);
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<List<ProductBrand>>> GetProductBrands()
+        {
+            var productBrands = await _repo.GetProductBrandsAsync();
+            return Ok(productBrands);
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<List<ProductBrand>>> GetProductTypes()
+        {
+            var productTypes = await _repo.GetProductTypesAsync();
+            return Ok(productTypes);
         }
     }
 }
