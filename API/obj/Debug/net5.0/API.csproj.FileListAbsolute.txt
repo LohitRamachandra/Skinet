@@ -57,6 +57,6 @@ C:\Angular\ECommerce\skinet\API\obj\Debug\net5.0\API.dll
 C:\Angular\ECommerce\skinet\API\obj\Debug\net5.0\ref\API.dll
 C:\Angular\ECommerce\skinet\API\obj\Debug\net5.0\API.pdb
 C:\Angular\ECommerce\skinet\API\obj\Debug\net5.0\API.genruntimeconfig.cache
-C:\Angular\ECommerce\skinet\API\obj\Debug\net5.0\refint\API.dll
 C:\Angular\ECommerce\skinet\API\bin\Debug\net5.0\AutoMapper.dll
 C:\Angular\ECommerce\skinet\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Angular\ECommerce\skinet\API\obj\Debug\net5.0\refint\API.dll
